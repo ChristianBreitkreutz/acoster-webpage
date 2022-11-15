@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-color: var(--album-bg-color);
+}
+a {
+    color: beige;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: beige;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* cover
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* 
+.design-cover {
+    
+}
+ */
+.design-cover h1{
+    white-space: nowrap;
+    color: var(--album-text-color);
+    font-size: 4vh;
+}
+.design-cover img {
+    box-shadow: -1vw 1vh 2vw var(--cover-shaddow-color); 
+    border-radius: 0.7vh;
+    max-width:100%;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* link list
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.design-link-list {
+    height: auto;
+}
+.design-link-list img {
+    max-width: 100%;
+    max-height: 4vh;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    padding: 2vh;
+}
+.design-link-list-container {
+    background-color: var(--link-bg-color);
+    border-radius: 1.0vh;
+}
+.round_corners_top {
+    border-top-right-radius: 1.0vh;
+    border-top-left-radius: 1.0vh;
+}
+.round_corners_bottom {
+    border-bottom-right-radius: 1.0vh;
+    border-bottom-left-radius: 1.0vh;
+}
+.provider-link {
+    transition: all 0.1s ease ;
+}
+.provider-link:hover  {
+    background-color: var(--link-hover-color);
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* header -> stage <-footer */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.artist-bar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    text-align: center;
+
+    background-color: var(--artist-bg-color);
+    color: var(--artist-text-color);
+}
+.artist-bar img {
+    max-height: 2vh;
+    max-width: 100%;
+    margin: 2vh;
+    height: auto;
+}
+.artist-bar img#home {
+    float: left;
+}
+.artist-bar img#artist {
+    float: right;
+}
+.stage {
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+.imprint-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+
+    background-color: var(--artist-bg-color);
+    color: var(--artist-text-color);
+}
+.imprint-bar h3 {
+    font-size: 1.5vh;
+    margin: 1vh;
+}

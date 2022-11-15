@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/vars.css">
+        <link rel="stylesheet" href="css/flexbox.css">
+        <link rel="stylesheet" href="css/font.css">
+
+        <link rel="stylesheet" href="css/design-common.css">
+        <link rel="stylesheet" media='screen and (orientation: landscape)' href="css/design-landscape.css"/> 
+        <link rel="stylesheet" media='screen and (orientation: portrait)' href="css/design-portrait.css"/>
+        <style>
+            :root {
+                /* default record colors */
+                --album-text-color: rgb(255, 251, 0);
+                --album-bg-color: rebeccapurple;
+            }
+            body {
+                color: white;
+            }
+            .stage {
+                flex-direction: column;
+                justify-content: left;
+                margin-left: 20vw;
+                margin-right: 20vw;
+                text-align: justify;
+            }      
+            @media only screen and (orientation: portrait) {
+                .stage {
+                    margin-left: 3vw;
+                    margin-right: 3vw;
+                    text-align: left;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="artist-bar" >
+            <a href="index.html" target="_self"><img id="home" src="images/home-open.png" title="home" alt="home"></a>
+            <a href="index.html" target="_self"><img id="artist" src="images/acosta.png" title="artists logo" alt="artists logo"></a>
+        </div>
+        <div class="flexbox-stage stage">
+            <h1>Impressum</h1>
+            <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
+            <p>
+                Christian & Tobias Breitkreutz </br>
+                Peterssteinweg 14 </br>
+                04107 Leipzig, Deutschland</br>
+            </p>
+            <p>  
+                E-Mail-Adresse: hi [at] breitkreutz.io</br>
+                Telefon: +49 30 54 90 92 63</br>
+            </p>
+            <h2>Online Marketing, SEO</h2>
+            <p>
+                Die Marketing-Betreuung der Website übernimmt <a style="text-decoration: underline;" href="https://breitkreutz.io">breitkreutz.io – Online Marketing, SEO und Conversion Optimierung</a>
+            </p>
+            <h2>Haftungs- und Urheberrechtshinweise</h2>
+            <b>Haftungsausschluss:</b> 
+            <p>
+                Die Inhalte dieses Onlineangebotes wurden sorgfältig und nach unserem aktuellen Kenntnisstand erstellt, dienen jedoch nur der Information und entfalten keine rechtlich bindende Wirkung, sofern es sich nicht um gesetzlich verpflichtende Informationen (z.B. das Impressum, die Datenschutzerklärung, AGB oder Widerrufsbelehrungen für Verbraucher) handelt. Wir behalten uns vor, die Inhalte vollständig oder teilweise zu ändern oder zu löschen, soweit vertragliche Verpflichtungen unberührt bleiben. Alle Angebote sind freibleibend und unverbindlich.
+            </p>
+            <b>Links auf fremde Webseiten:</b>
+            <p>
+                Inhalte fremder Webseiten, auf die wir direkt oder indirekt verweisen, liegen außerhalb unseres Verantwortungsbereiches und machen wir uns nicht zu Eigen. Für alle Inhalte und insbesondere für Schäden, die aus der Nutzung der in den verlinkten Webseiten aufrufbaren Informationen entstehen, haftet allein der Anbieter der verlinkten Webseiten.
+            </p>
+            <b>Urheberrechte und Markenrechte:</b>
+            <p>
+                Alle auf dieser Website dargestellten Inhalte, wie Texte, Fotografien, Grafiken, Marken und Warenzeichen sind durch die jeweiligen Schutzrechte (Urheberrechte, Markenrechte) geschützt. Die Verwendung, Vervielfältigung usw. unterliegen unseren Rechten oder den Rechten der jeweiligen Urheber bzw. Rechteverwalter.
+            </p>
+            <b>Hinweise auf Rechtsverstöße:</b>
+            <p>
+                Sollten Sie innerhalb unseres Internetauftritts Rechtsverstöße bemerken, bitten wir Sie uns auf diese hinzuweisen. Wir werden rechtswidrige Inhalte und Links nach Kenntnisnahme unverzüglich entfernen.
+            </p>
+        </div>
+        <div class="imprint-bar" ><h3>impressum</h3></div>
+    </body>
+</html>

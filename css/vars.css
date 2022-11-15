@@ -1,0 +1,11 @@
+:root {
+    --artist-bg-color: #0b1118;
+    --artist-text-color: rgb(255, 255, 255);
+
+    /* default record colors */
+    --album-text-color: rgb(255, 251, 0);
+    --album-bg-color: #ff8800;
+    --cover-shaddow-color: hwb(303 0% 0% / 0.486);
+    --link-bg-color: rgba(255, 0, 0, 0.103);
+    --link-hover-color: rgba(0, 255, 0, 0.315);
+}
