@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="249.76137mm"
+   height="150.28337mm"
+   viewBox="0 0 249.76138 150.28337"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="home.svg"
+   inkscape:export-filename="/home/christian/Dokumente/projekte/2022_10_17_Acosta_landingpage/acoster-webpage/images/home-open.png"
+   inkscape:export-xdpi="22.504633"
+   inkscape:export-ydpi="22.504633">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#010101"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="812.92025"
+     inkscape:cy="238.07277"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     scale-x="0.8"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1870"
+     inkscape:window-height="1016"
+     inkscape:window-x="50"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-6.8461614,-31.300371)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10.34490108;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect815"
+       width="48.956573"
+       height="45.061131"
+       x="29.831341"
+       y="50.009235"
+       ry="7.3313155" />
+    <rect
+       ry="21.832716"
+       y="50.009235"
+       x="107.24855"
+       height="45.061131"
+       width="48.956573"
+       id="rect817"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10.34490013;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       ry="7.3313155"
+       y="50.009235"
+       x="184.66577"
+       height="45.061131"
+       width="48.956573"
+       id="rect1583"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10.34490108;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10.34490013;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1585"
+       width="48.956573"
+       height="45.061131"
+       x="184.66577"
+       y="117.81375"
+       ry="21.832716" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10.34490108;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1587"
+       width="48.956573"
+       height="45.061131"
+       x="107.24855"
+       y="117.81375"
+       ry="7.3313155" />
+    <rect
+       ry="7.3313155"
+       y="117.81375"
+       x="29.831341"
+       height="45.061131"
+       width="48.956573"
+       id="rect1589"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10.34490108;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>
