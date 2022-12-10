@@ -1,6 +1,14 @@
 body {
     margin: 0;
     background-color: var(--album-bg-color);
+    font-family: Verdana, sans-serif;
+}
+h1{
+    letter-spacing: +0.10em;
+}
+h3#imprint {
+    font-weight: lighter;
+    letter-spacing: +0.2em;
 }
 a {
     color: beige;
