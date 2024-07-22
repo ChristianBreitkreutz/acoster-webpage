@@ -22,7 +22,7 @@
     <body>
         <div class="artist-bar" >
             <a href=".." target="_self"><img id="home" src="../images/home-open.png" title="home" alt="home"></a>
-            <a href="../whynachten" target="_self"><img id="home" src="../images/left.png" title="whynachten" alt="whynachten"></a>
+            <a href="../nordpoldrops" target="_self"><img id="home" src="../images/left.png" title="whynachten" alt="nordpoldrops"></a>
             <a href="../faltan" target="_self"><img id="home" src="../images/right.png" title="faltan" alt="faltan"></a>
             <a href=".." target="_self"><img id="artist" src="../images/acosta.png" title="artists logo" alt="artists logo"></a>
         </div>
@@ -32,7 +32,12 @@
                     <h1>Ibin Gårdella</h1>
                 </div>
                 <div class="item-cover">
-                    <img src="cover.png" title="cover art from album Ibin Gårdella from acosta">
+                <picture title="cover art from album Ibin Gårdella from acosta">
+						      <source media="(min-width:1001x)" srcset="./cover_2500.png">
+						      <source media="(min-width:500px)" srcset="./cover_500.png"> 
+						      <source media="(min-width:250px)" srcset="./cover_250.png"> 
+						      <img src="./cover_1000_default.png" >
+						  </picture>
                 </div>
             </div>
             <div class="flexbox-link-list design-link-list">
