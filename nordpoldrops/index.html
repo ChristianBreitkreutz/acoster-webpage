@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="../images/favicon_16_16.png" sizes="16x16">
+        <link rel="stylesheet" href="../css/vars.css">
+        <link rel="stylesheet" href="../css/flexbox.css">
+
+        <link rel="stylesheet" href="../css/design-common.css">
+        <link rel="stylesheet" media='screen and (orientation: landscape)' href="../css/design-landscape.css"/>
+        <link rel="stylesheet" media='screen and (orientation: portrait)' href="../css/design-portrait.css"/>
+        <style>
+            :root {
+                --album-text-color: #93560b;
+                --album-bg-color: #efad5f;
+                --cover-shaddow-color: hwb(0 0% 100% / 0.486);
+                --link-bg-color: #93560b;
+                --link-hover-color: #de8210;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="artist-bar" >
+            <a href=".." target="_self"><img id="home" src="../images/home-open.png" title="home" alt="home"></a>
+            <a href="../whynachten" target="_self"><img id="home" src="../images/left.png" title="whynachten" alt="whynachten"></a>
+            <a href="../ibin_gordella" target="_self"><img id="home" src="../images/right.png" title="ibin Gårdella" alt="ibin Gårdella"></a>
+            <a href=".." target="_self"><img id="artist" src="../images/acosta.png" title="artists logo" alt="artists logo"></a>
+        </div>
+        <div class="flexbox-stage stage">
+            <div class="flexbox-cover design-cover">
+                <div class="item-cover ">
+                    <h1>Nordpoldrops - run run</h1>
+                </div>
+                <div class="item-cover">
+                <picture title="cover art from single run run from nordpoldrops">
+						      <source media="(min-width:1001x)" srcset="./cover_2500.png">
+						      <source media="(min-width:500px)" srcset="./cover_500.png"> 
+						      <source media="(min-width:250px)" srcset="./cover_250.png"> 
+						      <img src="./cover_1000_default.png" >
+						  </picture>
+                </div>
+            </div>
+            <div class="flexbox-link-list design-link-list">
+                    <div class="design-link-list-container">
+                        <a class="item-link-list provider-link round_corners_top" target="jamendo" href="https://www.jamendo.com/track/2187041/run-run">
+                            <img src="../images/provider-logos/jamendo.png" title="logo jamando" alt="logo jamando">
+                        </a>
+                       <!--
+                       <a class="item-link-list provider-link" target="soundcloud" href="https://soundcloud.com/acoster/sets/ibin-gardella">
+                            <img title="logo soundcloud" alt="logo soundcloud"  src="../images/provider-logos/soundcloud.png" >
+                        </a>
+                        <a class="item-link-list provider-link" target="bandcamp" href="https://acoster.bandcamp.com/album/ibin-g-rdella">
+                            <img title="logo bandcamp" alt="logo bandcamp"  src="../images/provider-logos/bandcamp.png" >
+                        </a>
+                        -->
+                        <a class="item-link-list provider-link" href="spotify:track:342OuFJJ7qb8o0iXDL4Ucn">
+                            <img src="../images/provider-logos/spotify-app.png" title="logo spotify app link" alt="logo spotify app link">
+                        </a>
+                        <a class="item-link-list provider-link" target="spotify" href="https://open.spotify.com/track/342OuFJJ7qb8o0iXDL4Ucn">
+                            <img src="../images/provider-logos/spotify-web.png" title="logo spotify" alt="logo spotify">
+                        </a>
+                        <!--
+                        
+                        <a class="item-link-list provider-link " target="tidal" href="https://listen.tidal.com/album/272921581">
+                            <img src="../images/provider-logos/tidal.png" title="logo tidal" alt="logo tidal">
+                        </a>
+                        <a class="item-link-list provider-link " target="amazon-musik" href="https://music.amazon.com/albums/B0BSV4B3QW">
+                            <img src="../images/provider-logos/amazon_music.png"title="logo amazon-music" alt="logo amazon-musik">
+                        </a>
+                        <a class="item-link-list provider-link " target="apple-musik" href="https://music.apple.com/album/ibin-gårdella/1667226652">
+                            <img src="../images/provider-logos/apple-music.png"title="logo apple-music" alt="logo apple-musik">
+                        </a>
+                        -->
+                        <a class="item-link-list provider-link round_corners_bottom" target="deezer" href="https://www.deezer.com/album/609141062">
+                            <img src="../images/provider-logos/deezer.png" title="logo deezer" alt="logo deezer">
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        <div class="imprint-bar" ><a href="../imprint" target="_self"><h3 id="imprint">impressum</h3></a></div>
+    </body>
+</html>
